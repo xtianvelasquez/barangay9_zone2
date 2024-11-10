@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+::selection {
+    background: #1abc9c;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffffd2;
+    border-radius: 9px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0c826a;
+    border-radius: 9px;
+}
+
+.card.rounded-0 {
+    border-radius: 15px !important;
+}
+
+.card-header {
+    height: 90px;
+    width: 800px;
+    background: #16a085;
+    border-radius: 5px 5px 0 0;
+    border-right: 2.5px solid #333333;
+    border-left: 2.5px solid #333333;
+    border-top: 2.5px solid #333333;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.card-body {
+    background: #ffffffd2;
+    width: 800px;
+    padding: 30px 25px 25px 25px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 5px 5px;
+    border-right: 2.5px solid #333333;
+    border-left: 2.5px solid #333333;
+    border-bottom: 2.5px solid #333333;
+    align-self: center;
+}
+
+.card-body form label {
+    font-weight: bold;
+}
+
+.col.d-block.mb-3 label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.col.d-block.mb-4 label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.col.d-block.mb-4 label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-group.mb-3 label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn-outline-primary {
+    color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.show>.btn-outline-primary.dropdown-toggle {
+    color: #1abc9c !important;
+    background-color: #1abc9c !important;
+    border-color: #1abc9c !important;
+}
+
+.text-decoration-none {
+    color: #1abc9c;
+}
+
+.text-decoration-none:hover {
+    color: #16a085;
+}

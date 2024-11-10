@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffffd2;
+    border-radius: 9px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0c826a;
+    border-radius: 9px;
+}
+
+.bg-light {
+    background-color: #F5F5F5 !important;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.card-header {
+    height: 90px;
+    background: #16a085;
+    border-radius: 5px 5px 0px 0px;
+    border-right: 2.5px solid #333333;
+    border-left: 2.5px solid #333333;
+    border-top: 2.5px solid #333333;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 650;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.table.table-bordered.caption-top {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+
+}
+
+.card-body {
+    background: #ffffff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 5px 5px;
+    border-right: 2.5px solid #333333;
+    border-left: 2.5px solid #333333;
+    border-bottom: 2.5px solid #333333;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+::selection {
+    background: #1abc9c;
+}
+
+.light-up span {
+    animation: lightUp 1.5s infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes lightUp {
+
+    0%,
+    100% {
+        color: white;
+    }
+
+    50% {
+        color: yellow;
+    }
+}
+
+.light-up span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.light-up span:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.light-up span:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.light-up span:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.light-up span:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.light-up span:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+.light-up span:nth-child(7) {
+    animation-delay: 0.6s;
+}
+
+.light-up span:nth-child(8) {
+    animation-delay: 0.7s;
+}
+
+.light-up span:nth-child(9) {
+    animation-delay: 0.8s;
+}
+
+.light-up span:nth-child(10) {
+    animation-delay: 0.9s;
+}
+
+.light-up span:nth-child(11) {
+    animation-delay: 1s;
+}
+
+.light-up span:nth-child(12) {
+    animation-delay: 1.1s;
+}
+
+.light-up span:nth-child(13) {
+    animation-delay: 1.2s;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

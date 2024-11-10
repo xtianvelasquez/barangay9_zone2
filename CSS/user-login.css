@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #F5F5F5;
+    overflow: hidden;
+}
+
+::selection {
+    background: #1abc9c;
+}
+
+.card {
+    max-width: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-header {
+    height: 90px;
+    background: #16a085;
+    border-radius: 5px 5px 0 0;
+    border-right: 2.5px solid #333333;
+    border-left: 2.5px solid #333333;
+    border-top: 2.5px solid #333333;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.card-body {
+    padding: 30px 25px 25px 25px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 5px 5px;
+    border-right: 2.5px solid #333333;
+    border-left: 2.5px solid #333333;
+    border-bottom: 2.5px solid #333333;
+}
+
+.input-group {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.input-group .input-group-text {
+    width: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-outline-primary {
+    color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.show>.btn-outline-primary.dropdown-toggle {
+    color: #1abc9c !important;
+    background-color: #1abc9c !important;
+    border-color: #1abc9c !important;
+}
+
+.text-decoration-none {
+    color: #1abc9c;
+}
+
+.text-decoration-none:hover {
+    color: #16a085;
+}
